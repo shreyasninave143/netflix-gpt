@@ -29,6 +29,11 @@
  - Embedded the youtube video and make it autoplay and mute
  - Tailwind classes to make it look awesome.
  - Tailwind classes to make main container to look awesome.
+ - Build secondary container.
+ - Build Movie List
+ - TMDB image CDN URL
+ - Made browse page amazing with tailwind.
+ - usePopularMovies custom hook.
 
  # Features
   - Login/Sign up
