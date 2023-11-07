@@ -7,7 +7,7 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNzJhNTg5YjA5YzNkZGU5ZjJlNjlkZGUxYzUzNTczZiIsInN1YiI6IjY1NDg4N2Y4MzkxYjljMDBhZDcyOGJkZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Ku9gz3wTc92d68mSDUb10lQ_FUHK9JMMVsjDhuJbWUg'
+        Authorization: 'Bearer ' + process.env.REACT_APP_TMDB_KEY;
     }
 };
 export const IMG_CDN = "https://image.tmdb.org/t/p/w500";
@@ -17,3 +17,5 @@ export const SUPPORTED_LANGUAGES = [
     { identifier: 'hindi', name: 'Hindi' },
     { identifier: 'spanish', name: 'Spanish' },
 ]
+// export const OPENAI_KEY = "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";  // key - sninave1433@gmail.com
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;  // Key - shreyasninave143@gmail.com

@@ -2,7 +2,7 @@ const VideoTitle = (props) => {
     const { title, overview } = props;
 
     return (
-        <div className="w-screen aspect-video pt-[15%] px-12 absolute text-white bg-gradient-to-r from-black">
+        <div className="w-full aspect-video pt-[15%] px-12 absolute text-white bg-gradient-to-r from-black">
             <h1 className="text-4xl font-bold">{title}</h1>
             <p className="py-2 w-1/4">{overview}</p>
             <div>
